@@ -1,6 +1,7 @@
 #include <iostream>
-
+void show () {
+     std::cout<<"Hello";
 int main () {
-    std::cout<<"Hello";
+    show ();
     return 0;
 }
